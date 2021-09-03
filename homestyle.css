@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: boder-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+body{
+     background: #151D21;
+    background-image: url('../images/bg.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.nav{
+    display: flex;
+    padding-top: 15px;
+    height: 10vh;
+}
+.navh1 {
+   text-decoration: none;
+   display: flex;
+   height: 100%;
+   align-items: center;
+   font-size: 30px;
+   color: #f85252;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   padding-left: 30px;
+   width: 30%;
+   text-decoration-line: underline;
+}
+.navlinks{
+    list-style: none;
+    width: 70%;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    height: 100%;
+    align-items: center;
+}
+.navlinks li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 26px;
+    font-family: sans-serif;
+    transition: .4s ease .0s;
+}
+.navlinks li a:hover{
+    color: #ff6464;
+}
+.home-p{
+    text-align: center;
+    padding-top: 22%;
+    padding-bottom: 30%;
+}
+.home-p a{
+    text-decoration: none;
+    background-color: #f85252;
+    color: #151D21;
+    padding: 12px;
+    font-size: 22px;
+    font-family: sans-serif;
+    border-radius: 8px;
+    transition: .3s ease .0s;
+}
+.home-p a:hover{
+    padding: 13px;
+    background-color: #fff;
+    font-size: 23px;
+}
+.home-p h1{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    padding-bottom: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+}
+#middle{
+    text-align: center;
+    padding-bottom: 5%;
+}
+#middle h1{
+    color: white;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 10px;
+}
+#middle p{
+    color: white;
+    font-size: 40px;
+    padding-bottom: 3%;
+}
+.mytap{
+    text-decoration: none;
+    background-color: #f85252;
+    color: #151D21;
+    padding: 12px;
+    font-size: 22px;
+    font-family: sans-serif;
+    border-radius: 8px;
+    transition: .3s ease .0s;
+    margin: 40px;
+    transition: .3s ease .0s;
+}
+.mytap:hover{
+    background-color: whitesmoke;
+}
+.link{
+    padding-bottom: 100px;
+}
+.foot p{
+    display: block;
+    text-align: center;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 0pt;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 780px){
+    .navh1{
+        font-size: 20px;
+    }
+    .navlinks li a{
+        font-size: 16px;
+    }
+    .home-p{
+        padding-bottom: 100%;
+        padding-top: 45%;
+    }
+    .home-p h1{
+        font-size: 35px;
+    }
+    .home-p a{
+        font-size: 18px;
+        padding: 10px;
+    }
+    .home-p a:hover{
+        padding: 11px;
+        font-size: 19px;
+    }
+    #middle{
+        padding-bottom: 15%;
+    }
+    #middle h1{
+        font-size: 40px;
+    }
+    #middle p{
+        font-size: 25px;
+        margin: 20px;
+    }
+    .mytap{
+        font-size: 18px;
+        padding: 10px;
+    }
+    .foot p{
+        font-size: 13px;
+    }
+}
